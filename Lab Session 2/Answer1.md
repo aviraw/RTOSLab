@@ -170,30 +170,37 @@ void TaskBlink(void *pvParameters)  // This is a task.
 ```
 # Explaination and Output
 
-## We are using ArduinoIDE and Arduino Uno Board.
-## The source code is uploaded successfully and the Serial Monitor displays output.
-## The TASK Serial displays information about the current task.
-## The TASK Blink keeps blinking the LED PIN on the Arduino Uno Board.
-## The other 2 tasks are TASK DELETED and TASK BLOCKED
-## The main screen show all the details of the 4 tasks.
+*** We are using ArduinoIDE and Arduino Uno Board. ***
+*** The source code is uploaded successfully and the Serial Monitor displays output. ***
+*** The TASK Serial displays information about the current task. ***
+*** The TASK Blink keeps blinking the LED PIN on the Arduino Uno Board. ***
+*** The other 2 tasks are TASK DELETED and TASK BLOCKED ***
+*** The main screen show all the details of the 4 tasks. ***
+
 ![output1](./Screenshots/1.PNG)
 
 # Note initially the priority of TASK Blink is 2 but after we give input “z” it changes to 1.
+
 ![output2](./Screenshots/2.PNG)
 
 # The Blinking LED PIN on UNO Board.
+
 ![output3](./Screenshots/3.PNG)
 
 # When input “s” is given then the blinking of LED PIN on the board stops. This is because the TASK Blink is suspended. 
+
 ![output4](./Screenshots/4.PNG)
 
 # The Blinking of LED stops.
+
 ![output5](./Screenshots/5.PNG)
 
 # When input “r” is given then the blinking of LED PIN on the board resumes. This is because the TASK Blink is resumed.
+
 ![output6](./Screenshots/6.PNG)
 
 # The Blinking LED PIN on UNO Board resumes blinking. 
+
 ![output5](./Screenshots/5.PNG)
 
 #
