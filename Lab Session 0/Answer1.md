@@ -87,7 +87,7 @@ int main(){
 ![five](./Screenshots/1-5.png)
 #
 Name : Aviral Kumar Srivastava
-Roll No :. 20
+Roll No : 20
 SAP ID : 500068442
 Class : CSE IOT B1
 RTOS LAB 0
