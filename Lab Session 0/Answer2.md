@@ -1,6 +1,6 @@
 # SOURCE CODE
 
-[
+```
 #include <stdio.h> 
 #include <conio.h>
 #include <time.h> 
@@ -63,7 +63,8 @@ int main()
     	}
     return 0; 
 }
-]
+```
+
 # OUTPUT
 
-![output](https://github.com/aviraw/RTOSLab/blob/master/Lab%20Session%200/1-2.PNG)
+![output](./1-2.PNG)
