@@ -69,4 +69,4 @@ int main()
 
 # OUTPUT
 
-![output](1-2.png)
+![output](/1-2.png)
