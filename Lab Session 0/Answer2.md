@@ -1,5 +1,6 @@
 # SOURCE CODE
 
+[
 #include <stdio.h> 
 #include <conio.h>
 #include <time.h> 
@@ -9,7 +10,6 @@ void delay(int seconds_delay)
 { 
 	clock_t start, end;
 	int ms = 1000 * seconds_delay; //The seconds recieved from the user as an input are converted into milliseconds here.
-	
 	clock_t ct = clock(); //this is very efficient to use in this manner	
     	char ch;		//to store the char input from keyboard press
     	int count=0;		//a flag variable to check for point of entry into the else segment
@@ -32,7 +32,6 @@ void delay(int seconds_delay)
     				counter += end - start;
     				break;
     			}
-
     		}
     	}
     	if(count!=0)
@@ -47,7 +46,6 @@ void delay(int seconds_delay)
 } 
 int main()
 { 
-	
 	int i; 
 	int dy;
 	char ch;
@@ -56,7 +54,6 @@ int main()
         scanf("%d",&dy);
         //Made by aviral
         //Currently this loop will run for a 1000 seconds without interuption
-        
         printf("Start:");
     	for (i = 0; i < 1000; i+=dy) 
     	{
@@ -66,7 +63,7 @@ int main()
     	}
     return 0; 
 }
-
+]
 # OUTPUT
 
 ![output](https://github.com/aviraw/RTOSLab/blob/master/Lab%20Session%200/1-2.PNG)
