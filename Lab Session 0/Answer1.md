@@ -1,5 +1,5 @@
 # (Initial Source Code)
-```
+```C
 #include<stdio.h>
 void disp()
 {
@@ -16,7 +16,7 @@ int main(){
 ![one](./Screenshots/1-1.png)
 
 # (Upon changing the print string we see a change in text but bss and data remains same)
-```
+```C
 #include<stdio.h>
 void disp()
 {
@@ -33,7 +33,7 @@ int main(){
 ![two](./Screenshots/1-2.png)
 
 # (Now upon changing the initialised state we change in both data and bss)
-```
+```C
 #include<stdio.h>
 void disp()
 {
@@ -49,7 +49,7 @@ int main(){
 ```
 ![three](./Screenshots/1-3.png)
 # (Now adding more global varibles we see a change in bss)
-```
+```C
 #include<stdio.h>
 void disp()
 {
@@ -66,7 +66,7 @@ int main(){
 ```
 ![four](./Screenshots/1-4.png)
 # (Now adding pointer for DMA)
-```
+```C
 #include<stdlib.h>
 #include<stdio.h>
 void disp()
