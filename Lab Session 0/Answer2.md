@@ -69,4 +69,4 @@ int main()
 
 # OUTPUT
 
-![output](/1-2.png)
+![output](https://github.com/aviraw/RTOSLab/blob/master/Lab%20Session%200/1-2.PNG)
