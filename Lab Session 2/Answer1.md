@@ -8,7 +8,7 @@ e.	**vTaskResume()** Resumes a suspended task. A task that has been suspended by
 f.	**vTaskGetInfo()** Whereas uxTaskGetSystemState() populates a TaskStatus_t structure for each task in the system, vTaskGetInfo() populates a TaskStatus_t structures for just a single task. The TaskStatus_t structure contains, among other things, members for the task handle, task name, task priority, task state, and total amount of run time consumed by the task.
 ```
 ##	Source Code :
-```
+```C
 #include <Arduino_FreeRTOS.h>
 //define task handles
 TaskHandle_t taskBlinkHandle;
