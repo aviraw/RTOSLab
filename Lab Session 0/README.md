@@ -1,5 +1,6 @@
 
-##RTOS Lab session 0
+###RTOS Lab session 0
+
 #Question 1 :
 This session will be a review of programming fundamentals that will be helpful throughout the session.
 
