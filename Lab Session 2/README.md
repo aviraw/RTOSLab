@@ -1,6 +1,6 @@
 ### RTOS Lab session 2
 #
-Complete the following using FreeRTOS Library.
+Complete the following using Arduino IDE and Arduino Uno board.
 #
 ```
 Q1. Write a program that contains the following functions from the Free RTOS library.
