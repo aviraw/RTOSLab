@@ -1,3 +1,5 @@
+# SOURCE CODE
+
 #include <stdio.h> 
 #include <conio.h>
 #include <time.h> 
@@ -64,3 +66,7 @@ int main()
     	}
     return 0; 
 }
+
+# OUTPUT
+
+![output](1-2.png)
