@@ -13,7 +13,7 @@ int main(){
         return 0;
 }
 ```
-![one](./1-1.png)
+![one](./Screenshots/1-1.png)
 
 # (Upon changing the print string we see a change in text but bss and data remains same)
 ```
@@ -30,7 +30,7 @@ int main(){
         return 0;
 }
 ```
-![two](./1-2.png)
+![two](./Screenshots/1-2.png)
 
 # (Now upon changing the initialised state we change in both data and bss)
 ```
@@ -47,7 +47,7 @@ int main(){
         return 0;
 }
 ```
-![three](./1-3.png)
+![three](./Screenshots/1-3.png)
 # (Now adding more global varibles we see a change in bss)
 ```
 #include<stdio.h>
@@ -64,7 +64,7 @@ int main(){
         return 0;
 }
 ```
-![four](./1-4.png)
+![four](./Screenshots/1-4.png)
 # (Now adding pointer for DMA)
 ```
 #include<stdlib.h>
@@ -84,7 +84,7 @@ int main(){
         return 0;
 }
 ```
-![five](./1-5.png)
+![five](./Screenshots/1-5.png)
 #
 Name : Aviral Kumar Srivastava
 Roll No :. 20
