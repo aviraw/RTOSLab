@@ -181,7 +181,7 @@ void TaskBlink(void *pvParameters)  // This is a task.
 
 ### Note initially the priority of TASK Blink is 2 but after we give input “z” it changes to 1.
 
-![output2](./Screenshots/2.PNG)
+![output2](./Screenshots/2.png)
 
 ### The Blinking LED PIN on UNO Board.
 
@@ -189,19 +189,19 @@ void TaskBlink(void *pvParameters)  // This is a task.
 
 ### When input “s” is given then the blinking of LED PIN on the board stops. This is because the TASK Blink is suspended. 
 
-![output4](./Screenshots/4.PNG)
+![output4](./Screenshots/4.png)
 
 ### The Blinking of LED stops.
 
-![output5](./Screenshots/5.PNG)
+![output5](./Screenshots/5.png)
 
 ### When input “r” is given then the blinking of LED PIN on the board resumes. This is because the TASK Blink is resumed.
 
-![output6](./Screenshots/6.PNG)
+![output6](./Screenshots/6.png)
 
 ### The Blinking LED PIN on UNO Board resumes blinking. 
 
-![output7](./Screenshots/7.PNG)
+![output7](./Screenshots/7.png)
 
 ##
 Name : Aviral Kumar Srivastava
