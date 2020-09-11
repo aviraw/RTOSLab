@@ -67,4 +67,4 @@ int main()
 
 # OUTPUT
 
-![output](./2-1.PNG)
+![output](./Screenshots/2-1.PNG)
