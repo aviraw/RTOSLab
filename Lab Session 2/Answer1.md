@@ -1,12 +1,12 @@
 ## Introduction about the Task Control Functions.
-```
+####
 a.	**vTaskDelay()** specifies a time at which the task wishes to unblock relative to the time at which vTaskDelay() is called. For example, specifying a block period of 100 ticks will cause the task to unblock 100 ticks after vTaskDelay() is called. vTaskDelay() does not therefore provide a good method of controlling the frequency of a periodic task as the path taken through the code, as well as other task and interrupt activity, will effect the frequency at which vTaskDelay() gets called and therefore the time at which the task next executes.
 b.	**uxTaskPriorityGet()** obtains the priority of any task.
 c.	**vTaskPrioritySet()** sets the priority of any task. A context switch will occur before the function returns if the priority being set is higher than the currently executing task.
 d.	**vTaskSuspend()** suspends any task. When suspended a task will never get any microcontroller processing time, no matter what its priority.
 e.	**vTaskResume()** Resumes a suspended task. A task that has been suspended by one or more calls to vTaskSuspend () will be made available for running again by a single call to vTaskResume ().
 f.	**vTaskGetInfo()** Whereas uxTaskGetSystemState() populates a TaskStatus_t structure for each task in the system, vTaskGetInfo() populates a TaskStatus_t structures for just a single task. The TaskStatus_t structure contains, among other things, members for the task handle, task name, task priority, task state, and total amount of run time consumed by the task.
-```
+
 ##	Source Code :
 ```C
 #include <Arduino_FreeRTOS.h>
