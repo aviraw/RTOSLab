@@ -18,3 +18,5 @@ Answer 1
 2. Create a loop which prints a random number after a certain amount of delay. The Value of the delay will be provided by the user. The Delay function gets an interrupt whenever any key press in there.
 
 https://www.geeksforgeeks.org/time-delay-c/
+
+[Answer 2](./Answer2.md)
