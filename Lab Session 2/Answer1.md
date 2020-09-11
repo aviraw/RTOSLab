@@ -1,4 +1,4 @@
-# Introduction about the Task Control Functions.
+## Introduction about the Task Control Functions.
 ```
 a.	**vTaskDelay()** specifies a time at which the task wishes to unblock relative to the time at which vTaskDelay() is called. For example, specifying a block period of 100 ticks will cause the task to unblock 100 ticks after vTaskDelay() is called. vTaskDelay() does not therefore provide a good method of controlling the frequency of a periodic task as the path taken through the code, as well as other task and interrupt activity, will effect the frequency at which vTaskDelay() gets called and therefore the time at which the task next executes.
 b.	**uxTaskPriorityGet()** obtains the priority of any task.
@@ -7,7 +7,7 @@ d.	**vTaskSuspend()** suspends any task. When suspended a task will never get an
 e.	**vTaskResume()** Resumes a suspended task. A task that has been suspended by one or more calls to vTaskSuspend () will be made available for running again by a single call to vTaskResume ().
 f.	**vTaskGetInfo()** Whereas uxTaskGetSystemState() populates a TaskStatus_t structure for each task in the system, vTaskGetInfo() populates a TaskStatus_t structures for just a single task. The TaskStatus_t structure contains, among other things, members for the task handle, task name, task priority, task state, and total amount of run time consumed by the task.
 ```
-#	Source Code :
+##	Source Code :
 ```
 #include <Arduino_FreeRTOS.h>
 //define task handles
@@ -168,7 +168,7 @@ void TaskBlink(void *pvParameters)  // This is a task.
   }
 }
 ```
-# Explaination and Output
+## Explaination and Output
 
 ### **We are using ArduinoIDE and Arduino Uno Board.**
 ### **The source code is uploaded successfully and the Serial Monitor displays output.**
@@ -179,31 +179,31 @@ void TaskBlink(void *pvParameters)  // This is a task.
 
 ![output1](./Screenshots/1.PNG)
 
-# Note initially the priority of TASK Blink is 2 but after we give input “z” it changes to 1.
+### Note initially the priority of TASK Blink is 2 but after we give input “z” it changes to 1.
 
 ![output2](./Screenshots/2.PNG)
 
-# The Blinking LED PIN on UNO Board.
+### The Blinking LED PIN on UNO Board.
 
 ![output3](./Screenshots/3.PNG)
 
-# When input “s” is given then the blinking of LED PIN on the board stops. This is because the TASK Blink is suspended. 
+### When input “s” is given then the blinking of LED PIN on the board stops. This is because the TASK Blink is suspended. 
 
 ![output4](./Screenshots/4.PNG)
 
-# The Blinking of LED stops.
+### The Blinking of LED stops.
 
 ![output5](./Screenshots/5.PNG)
 
-# When input “r” is given then the blinking of LED PIN on the board resumes. This is because the TASK Blink is resumed.
+### When input “r” is given then the blinking of LED PIN on the board resumes. This is because the TASK Blink is resumed.
 
 ![output6](./Screenshots/6.PNG)
 
-# The Blinking LED PIN on UNO Board resumes blinking. 
+### The Blinking LED PIN on UNO Board resumes blinking. 
 
 ![output5](./Screenshots/5.PNG)
 
-#
+##
 Name : Aviral Kumar Srivastava
 Roll No : 20
 SAP ID : 500068442
