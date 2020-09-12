@@ -7,5 +7,5 @@ B.Tech CSE IoT B1 5th Sem
 
 |Sl.No.| Lab Session No.| Link |
 |------|----------------|------|
-|1.| Lab 0 | Link |
-|2.| Lab 2 | Link |
+|1.| Lab 0 | [Link](./Lab Session 0) |
+|2.| Lab 2 | [Link](./Lab Session 2) |
